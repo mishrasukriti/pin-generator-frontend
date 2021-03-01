@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-
-import { useDispatch } from "react-redux";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import { ToastContainer, toast } from "react-toastify";
 import mobile from "../../assets/mobile.JPG";
@@ -15,7 +13,7 @@ const Dash = () => {
   const failedNotify = (message) => toast.error(message);
 
   const history = useHistory();
-  const dispatch = useDispatch();
+
 
   const handleKeyUp = (event) => {
     
