@@ -16,7 +16,7 @@ const Login = () => {
 
   const history = useHistory();
 
-  const url = `http://localhost:8080/api/login`;
+  const url = `https://pin-generator-server.herokuapp.com/api/login`;
 
   const ErrorNotify = (message) => toast.error(message);
 

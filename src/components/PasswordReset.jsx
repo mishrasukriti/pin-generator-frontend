@@ -14,8 +14,8 @@ const PasswordReset = () => {
     const history = useHistory();
     const [showPasswordError, setShowPasswordError] = useState(false);
     
-    const url = `http://localhost:8080/api/verifyPasswordChange`;
-    const updatePasswordurl = `http://localhost:8080/api/updatePassword`;
+    const url = `https://pin-generator-server.herokuapp.com/api/verifyPasswordChange`;
+    const updatePasswordurl = `https://pin-generator-server.herokuapp.com/api/updatePassword`;
     
 
 

@@ -37,7 +37,7 @@ const Register = () => {
       Accept: "application/json",
     };
 
-    const url = `http://localhost:8080/api/register`;
+    const url = `https://pin-generator-server.herokuapp.com/api/register`;
     axios
       .post(url, request, {
         headers: headers,

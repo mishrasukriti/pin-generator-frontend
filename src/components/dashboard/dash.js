@@ -74,7 +74,7 @@ const Dash = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const url = "http://localhost:8080/api/validateOTP";
+    const url = "https://pin-generator-server.herokuapp.com/api/validateOTP";
     const token = localStorage.getItem("token");
 
     let inputs = document.getElementsByClassName("def-txt-input");
@@ -130,7 +130,7 @@ const Dash = () => {
   const handleResend = (e) => {
 
     e.preventDefault();
-    const url = "http://localhost:8080/api/resndOTP";
+    const url = "https://pin-generator-server.herokuapp.com/api/resndOTP";
     const token = localStorage.getItem("token");
     let email = localStorage.getItem("email");
     let request = { email };

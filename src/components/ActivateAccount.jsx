@@ -13,7 +13,7 @@ const ActivateAccount = () => {
     useEffect(() => {
         const activateAccount = async (event) => {
             // setLoading(true);
-            const url = `http://localhost:8080/api/activate_account`;
+            const url = `https://pin-generator-server.herokuapp.com/api/activate_account`;
             let urlWithParams = "";
             urlWithParams = window.location.href;    
             // event.preventDefault();

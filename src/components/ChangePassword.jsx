@@ -17,7 +17,7 @@ const ChangePassword = () => {
     const [validEmail, setValidEmail] = useState(false);
     const [showEmailError, setShowEmailError] = useState(false);
     
-    const url = `http://localhost:8080/api/changePassword`;
+    const url = `https://pin-generator-server.herokuapp.com/api/changePassword`;
 
     const validateAndSetEmail = (v) => {
         if (emailPattern.test(v)) {
